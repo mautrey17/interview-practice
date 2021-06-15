@@ -14,6 +14,7 @@ function App() {
       <p>
         {count}
       </p>
+      <button onClick={()=> setCount(count >= 1 ? count - 1 : count)}>Lower the count</button>
       <button onClick={() => setCount(count + 1)}>Stop the count</button>
     </div>
   );
